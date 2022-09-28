@@ -1,0 +1,48 @@
+#server:
+#  port: 8082
+#
+#
+#spring:
+#  profiles:
+#    active: dev
+#
+#---
+#spring:
+#  profiles: dev
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    username: root
+#    url: jdbc:mysql://localhost:3306/dcbapp
+#    password: diskette42
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#
+#---
+#
+#spring:
+#  profiles: qa
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    username: root
+#    url: jdbc:mysql://localhost:3306/dcbapp-qa
+#    password: diskette42
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#
+#---
+#
+#spring:
+#  profiles: prod
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    username: root
+#    url: jdbc:mysql://localhost:3306/dcbapp-prod
+#    password: diskette42
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
